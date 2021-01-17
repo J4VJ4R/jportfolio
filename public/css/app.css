@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,600);.nav1 {
+  background-color: #763F06;
+}
+
+.nav1 nav {
+  background-color: #763F06 !important;
+}
+
+.nav1 nav ul li a {
+  color: #FFFFFF !important;
+}
+
+.nav1 .navbar .navbar-brand {
+  color: #FFFFFF;
+}
+
+.nav1 .navbar .navbar-brand img {
+  border: 1px solid #763F06;
+  border-radius: 30px;
+  width: 14%;
+}
+
+.carousel-item-1 {
+  display: block !important;
+}
+
+.footer1 {
+  background-color: #333;
+}
+
+.social [class*="fa fa-"] {
+  background-color: #333;
+  border-radius: 30px;
+  border: 1px solid #969696;
+  color: #969696;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  margin: auto 3px;
+  width: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .footer1 img {
+    width: 8% !important;
+  }
+}
+
+.fa-facebook:hover {
+  background-color: #FFAB00;
+  color: #FFFFFF;
+}
+
+.fa-instagram:hover {
+  background-color: #FFAB00;
+  color: #FFFFFF;
+}
+
+.copyright {
+  color: #969696;
+}
+
+@media screen and (max-width: 567px) {
+  .copyright {
+    font-size: 9px;
+  }
+}
+
+.btn-primary {
+  background-color: #FFAB00 !important;
+  border-color: #FFAB00;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 567px) {
+  .btn-primary {
+    font-size: 1.5rem;
+  }
+}
+

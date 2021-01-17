@@ -1,0 +1,29 @@
+.nav1 {
+    background-color: $secondary;
+
+    nav {
+        background-color: $secondary !important;
+
+        ul {
+            li {
+                a {
+                    color: $white !important;
+                }
+            }
+        }
+    }
+
+    .navbar {
+        .navbar-brand {
+            color: $white;
+
+            img {
+                border: 1px solid $secondary;
+                border-radius: 30px;
+                width: 14%;
+                @media screen and (max-width: 992px) {
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.footer1{
+    background-color: $back-ground-footer;
+}
+.social [class*="fa fa-"]{
+    background-color: $back-ground-footer;
+    border-radius: 30px;
+    border: 1px solid $gray;
+    color: $gray;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .footer1{
+        img{
+            width: 8% !important;
+        }
+    }
+}
+.fa-facebook:hover{
+    background-color: $primary;
+    color: $white;
+}
+.fa-instagram:hover{
+    background-color: $primary;
+    color: $white;
+}
+//FONTS
+.copyright{
+    color: $gray;
+    @media screen and (max-width: 567px){
+        font-size: 9px;
+    }
+}
