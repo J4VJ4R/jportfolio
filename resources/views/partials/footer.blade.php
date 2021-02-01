@@ -3,8 +3,8 @@
         <div>
             <div class="d-flex justify-content-around">
                 <div class="social">
-                    <a class="fa fa-instagram mt-5" title="" target="_blank" href="#"></a>
-                    <a class="fa fa-facebook" title="" target="_blank" href="https://www.facebook.com/Arepas-La-Deliciosa-112066123891440"></a>
+                    <a class="fa fa-twitter mt-5" title="" target="_blank" href="https://twitter.com/javifullstack"></a>
+                    <a class="fa fa-linkedin" title="" target="_blank" href="https://www.linkedin.com/in/javier-jaramillo-346b681a1/"></a>
                 </div>
             </div>
             <div class="d-flex justify-content-around">

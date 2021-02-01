@@ -6,7 +6,14 @@
         font-size: 14px;
     }
 }
-
+.btn-primary-works {
+    background-color: $secondary !important;
+    border-color: none;
+    font-size: 2rem;
+    @media screen and (max-width: 1600px) {
+        font-size: 12px;
+    }
+}
 .btn-secondary {
     background-color: $secondary;
     border-radius: 30px;
@@ -25,7 +32,7 @@
     }
 
 }
-.card-img-top{
+.card-img-top-sobremi{
     border-bottom-left-radius: 8rem;
     border-bottom-right-radius: 8rem;
 }

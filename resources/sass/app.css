@@ -68,11 +68,11 @@
 @media (min-width: 992px) {
   .footer1 img {
     width: 8% !important; } }
-.fa-facebook:hover {
+.fa-twitter:hover {
   background-color: #f7de4e;
   color: #FFFFFF; }
 
-.fa-instagram:hover {
+.fa-linkedin:hover {
   background-color: #f7de4e;
   color: #FFFFFF; }
 
@@ -90,6 +90,14 @@
     .btn-primary {
       font-size: 14px; } }
 
+.btn-primary-works {
+  background-color: #38b6ff !important;
+  border-color: none;
+  font-size: 2rem; }
+  @media screen and (max-width: 1600px) {
+    .btn-primary-works {
+      font-size: 12px; } }
+
 .btn-secondary {
   background-color: #38b6ff;
   border-radius: 30px; }
@@ -100,7 +108,7 @@
   color: #f7de4e;
   background-color: #38b6ff; }
 
-.card-img-top {
+.card-img-top-sobremi {
   border-bottom-left-radius: 8rem;
   border-bottom-right-radius: 8rem; }
 

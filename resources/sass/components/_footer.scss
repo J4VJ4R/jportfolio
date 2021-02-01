@@ -10,7 +10,7 @@
         }
 
         a:link {
-            text-decoration: none;
+                text-decoration: none;
         }
 
         color: $gray;
@@ -51,12 +51,12 @@
     }
 }
 
-.fa-facebook:hover {
+.fa-twitter:hover {
     background-color: $primary;
     color: $white;
 }
 
-.fa-instagram:hover {
+.fa-linkedin:hover {
     background-color: $primary;
     color: $white;
 }

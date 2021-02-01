@@ -5,7 +5,7 @@
                aria-controls="pills-home" aria-selected="true">🙋‍♂️ Sobre mi </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#alitas" role="tab"
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#trabajos" role="tab"
                aria-controls="pills-profile" aria-selected="false">🏆 Trabajos</a>
         </li>
         <li class="nav-item">
@@ -24,7 +24,7 @@
     <div class="container mt-5 tab-pane active" id="arepas" role="tabpanel" aria-labelledby="pills-profile-tab">
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="{{asset('images/cards/sobremi/javier.jpg')}}" alt="Card image cap">
+                <img class="card-img-top card-img-top-sobremi" src="{{asset('images/cards/sobremi/javier.jpg')}}" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Javier Jaramillo</h5>
                     <p class="card-text">Full-Stack en crecimiento</p>
@@ -36,7 +36,7 @@
                 </button>
             </div>
             <div class="card">
-                <img class="card-img-top" src="{{asset('images/cards/sobremi/tecnologies.jpeg')}}" alt="Card image cap">
+                <img class="card-img-top card-img-top-sobremi" src="{{asset('images/cards/sobremi/tecnologies.jpeg')}}" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Tecnologías</h5>
                     <p class="card-text">Front-end con bootstrap, JS, html5, CSS.
@@ -52,7 +52,7 @@
                 </button>
             </div>
             <div class="card">
-                <img class="card-img-top" src="{{asset('images/cards/sobremi/softskills.jpg')}}"
+                <img class="card-img-top card-img-top-sobremi" src="{{asset('images/cards/sobremi/softskills.jpg')}}"
                      alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Habilidades Blandas test for git</h5>
@@ -74,18 +74,21 @@
             </button>
         </div>
     </div>
-    <!-- CARDS ALITAS -->
-    <div class="container mt-5 tab-pane " id="alitas" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <!-- CARDS trabajos -->
+    <div class="container mt-5 tab-pane " id="trabajos" role="tabpanel" aria-labelledby="pills-profile-tab">
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="{{asset('images/cards/alitas/alitasbbq.jpg')}}" alt="Card image cap">
+                <img class="card-img-top " src="{{asset('images/cards/trabajos/ilumedical.png')}}" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">6 Piezas</h5>
-                    <p class="card-text">Papa a la francesa</p>
-                    <p class="card-text">Salsa BBQ</p>
+                    <h5 class="card-title"><a href="https://ilumedical.com/" target="_blank">Ilumedical</a></h5>
+                    <p class="card-text">Desarrollo web</p>
+                    <p class="card-text">Página creada con, Wordpress modificada con Elementor</p>
+                    <p class="card-text">El proyecto consistió en tomar el trabajo web que estaba en código viejo y pasarlo a una tecnología más
+                    actualizada para poder crear un catálogo virtual que en nuestro caso optamos por hacerlo de forma rápida con el administrador
+                    de contenidos Wordpress junto con Elementor que nos permite modificar internamente los componenetes de un sitio web rápidamente.</p>
                 </div>
-                <button class="btn btn-primary font-weight-bold">
-                    $8.000
+                <button class="btn btn-primary-works  btn-primary font-weight-bold">
+                    CSS - HTML5 - MYSQL - CPANEL - ELEMENTOR - PHP <br> FOTOGRAFÍA - PHOTOSHOP LIGHTROOM
                 </button>
             </div>
             <div class="card">
