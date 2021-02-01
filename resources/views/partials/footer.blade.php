@@ -8,13 +8,14 @@
                 </div>
             </div>
             <div class="d-flex justify-content-around">
-                <img src="{{asset('images/logos/logo-circle.png')}}" alt="arepas la deliciosa"
-                     class="img-fluid w-25 mt-3 mb-3">
+                <div class="footer-brand" href="/">
+                    <a href="/">
+                        < Javier Jaramillo />
+                    </a>
+                </div>
             </div>
             <div class="d-block text-center text-white justify-content-around">
-                <p>Comidas rápidas</p>
-                <p>San Juan Bosco | Pasto - Nariño</p>
-                <p>Celular y whatsapp: 310 2980740 - 312 6326721</p>
+                <p class="copyright">Celular y whatsapp: 310 2980740 - 312 6326721</p>
             </div>
             <div class="d-flex justify-content-around text-center">
                 <p class="copyright">Todos los derechos reservados &copy; {!! date("Y") !!} Desarrollado por < JARA /> con

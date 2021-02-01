@@ -3,32 +3,34 @@
     <div class="container nav1">
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <div class="col-md-5 d-flex justify-content-center">
-                <a class="navbar-brand" href="/">
-                    <img src="{{asset('images/logos/logo-circle.png')}}" alt="arepas la deliciosa"
-                         class="img-fluid mx-2">
-                    Arepas La Deliciosa
-                </a>
+                <div class="navbar-brand" href="/">
+                    <a href="/">
+                        < Javier Jaramillo />
+                    </a>
+                </div>
+                <button class="navbar-toggler mx-3 ml-4" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02"
+                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-0 mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Alitas BBQ <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{url('/alitas')}}">🙋‍♂️ Sobre mi <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Arepas</a>
+                        <a class="nav-link" href="{{url('/arepas')}}">🏆 Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Salchipapas</a>
+                        <a class="nav-link disabled" href="{{url('salchipapas')}}">🎖️ Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Hamburguesas</a>
+                        <a class="nav-link disabled" href="{{url('/hamburguesas')}}">☕ Hablemos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Bebidas</a>
+                        <!--<a class="nav-link disabled" href="#">Bebidas</a>-->
                     </li>
                 </ul>
                 <!-- <form class="form-inline my-2 my-lg-0">

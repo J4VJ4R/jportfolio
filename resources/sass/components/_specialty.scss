@@ -1,8 +1,38 @@
-.btn-primary{
-    background-color: $primary !important;
-    border-color: $primary;
+.btn-primary {
+    background-color: $secondary !important;
+    border-color: none;
     font-size: 2rem;
-    @media screen and (max-width:567px){
-        font-size: 1.5rem;
+    @media screen and (max-width: 1600px) {
+        font-size: 14px;
     }
+}
+
+.btn-secondary {
+    background-color: $secondary;
+    border-radius: 30px;
+}
+
+//menu specialty buttons
+.specialty{
+    .nav-item{
+        a{
+            color: $gray;
+        }
+    }
+    .nav-link.active{
+        color: $primary;
+        background-color: $secondary;
+    }
+
+}
+.card-img-top{
+    border-bottom-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+}
+.d-md-block{
+    background: #8080806e;
+}
+.lead {
+    font-size: 2.25rem;
+    font-weight: 500;
 }

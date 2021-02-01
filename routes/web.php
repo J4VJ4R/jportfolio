@@ -14,5 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+//ALITAS BBQ
+Route::get('/alitas', function () {
+    return view('pages.alitas');
+});
+//AREPAS
+Route::get('/arepas', function () {
+    return view('pages.arepas');
+});
+//SALCHIPAPAS
+Route::get('/salchipapas', function () {
+    return view('pages.salchipapas');
+});
+//hamburguesas
+Route::get('/hamburguesas', function () {
+    return view('pages.hamburguesas');
+});
+//BEBIDAS
+

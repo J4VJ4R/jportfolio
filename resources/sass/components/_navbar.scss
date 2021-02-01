@@ -1,29 +1,50 @@
 .nav1 {
-    background-color: $secondary;
+    background-color: $white;
 
     nav {
-        background-color: $secondary !important;
+        background-color: $white !important;
 
         ul {
             li {
-                a {
-                    color: $white !important;
+bt                a {
+                    color: $gray !important;
                 }
+                a:hover{
+                    color: $primary !important;
+                }
+            }
+            li:hover{
+                background-color: $secondary !important;
+                border-radius: 32px;
             }
         }
     }
 
     .navbar {
         .navbar-brand {
-            color: $white;
-
-            img {
-                border: 1px solid $secondary;
-                border-radius: 30px;
-                width: 14%;
-                @media screen and (max-width: 992px) {
-                }
+            a{
+                color: $primary;
+                font-weight: bold;
+            }
+            a:link{
+                text-decoration: none;
+            }
+            color: $gray;
+            background-color: $secondary;
+            text-decoration: none;
+            border-radius: 32px;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+        }
+        .navbar-brand:hover{
+            background-color: $primary;
+            a{
+                color: $secondary;
             }
         }
     }
+}
+.navbar-light{
+    .navbar-toggler{
+        border-color: rgba(0,0,0,0);
+}
 }

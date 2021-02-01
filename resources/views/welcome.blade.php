@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arepas la Deliciosa</title>
+    <title>JARA | Desarrollo Web y Aplicativos</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <!-- Bootstrap -->
@@ -15,10 +15,8 @@
     <script src="https://use.fontawesome.com/0b66c2935d.js"></script>
 </head>
 <body>
-@include('partials.nav')
-@include('partials.carousel')
-@include('partials.specialty')
-@include('partials.footer')
+@yield('section')
+
 
 <!-- js -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
